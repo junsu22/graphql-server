@@ -1,3 +1,5 @@
+# Apollo & playground server
+
 mkdir graphql-server
 
 cd graphql-server 
@@ -21,18 +23,16 @@ https://github.com/apollographql/apollo-server
 
 package.json > script > 
 (-)test
-(+)
-"dev" : "nodemon index.js"
+<code>"dev" : "nodemon index.js"</code>
 
 
-
-> npm run dev
+npm run dev
 
 
 
 index.js ->const server = new Apolo......
-ltypeDefs,resolvers, (추가 ) 
-playground : true,
+ltypeDefs,resolvers, (추가 )
+<code>playground : true,</code>
 
 
 
